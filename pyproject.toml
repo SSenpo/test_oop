@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "club_test"
+version = "0.1.0"
+description = "test description from Fix co"
+authors = ["Sen Senpo"]
+readme = "README.md"
+packages = [{include = "club_test"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
